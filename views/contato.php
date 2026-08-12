@@ -71,142 +71,31 @@
     <main>
 
 
-        <!-- APRESENTAÇÃO -->
+        <!-- ===================****** inicio da página de cadastros *************======================== -->
+        <section class="conteudo-cadastro container-fluid p-4">
+            <h2 class="titulo-pagina mb-4">Cadastrar Contato</h2>
 
-        <section class="bg-gray py-5">
+            <form class="form-evento-clean" id="formContato">
 
-            <div class="container">
-
-                <div class="row align-items-center py-5">
-
-
-                    <!-- Texto -->
-
-                    <div class="col-lg-6">
-
-                        <span class="badge bg-purple mb-3">
-                            Sistema de Gestão
-                        </span>
-
-                        <h1 class="display-4 fw-bold">
-
-                            Gerencie seus cadastros
-                            de forma simples
-
-                        </h1>
-
-                        <p class="lead text-muted mt-3">
-
-                            Um sistema para gerenciamento de
-                            produtos, clientes e funcionários.
-
-                        </p>
-
-                        <p class="text-muted">
-
-                            Desenvolvido com PHP, MVC, Bootstrap,
-                            JavaScript, jQuery e validação de dados.
-
-                        </p>
-
-
-                        <!-- Botões -->
-
-                        <div class="mt-4">
-
-                            <a href="index.php?page=login"
-                                class="btn btn-purple btn-lg text-white"> 
-
-                                <i class="bi bi-box-arrow-in-right me-2"></i>
-
-                                Acessar o sistema
-
-                            </a>
-
-                        </div>
-
+                <!-- Campos Básicos -->
+                <div class="row mb-3">
+                    <div class="col-md-8">
+                        <label for="titulo" class="form-label">Nome</label>
+                        <input type="text" id="titulo" class="form-control" placeholder="Ex: Workshop de Tecnologia">
                     </div>
-
-
-                    <!-- Card visual -->
-
-                    <div class="col-lg-6 mt-5 mt-lg-0">
-
-                        <div class="card border-0 shadow-lg">
-
-                            <div class="card-body p-5">
-
-                                <div class="text-center mb-4">
-
-                                    <i class="bi bi-speedometer2 display-1 text-purple"></i>
-
-                                    <h3 class="mt-3">
-                                        Sistema de Cadastros
-                                    </h3>
-
-                                    <p class="text-muted">
-
-                                        Organize as principais
-                                        informações em um único lugar.
-
-                                    </p>
-
-                                </div>
-
-
-                                <div class="row text-center">
-
-                                    <!-- Produto -->
-
-                                    <div class="col-4">
-
-                                        <i class="bi bi-box-seam fs-2 text-purple"></i>
-
-                                        <p class="mt-2 mb-0">
-                                            Produtos
-                                        </p>
-
-                                    </div>
-
-
-                                    <!-- Cliente -->
-
-                                    <div class="col-4">
-
-                                        <i class="bi bi-people fs-2 text-purple"></i>
-
-                                        <p class="mt-2 mb-0">
-                                            Clientes
-                                        </p>
-
-                                    </div>
-
-
-                                    <!-- Funcionário -->
-
-                                    <div class="col-4">
-
-                                        <i class="bi bi-person-badge fs-2 text-purple"></i>
-
-                                        <p class="mt-2 mb-0">
-                                            Funcionários
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
+                    <div class="col-md-4">
+                        <label for="data" class="form-label">email</label>
+                        <input type="date" id="data" class="form-control">
                     </div>
-
                 </div>
 
-            </div>
+                <div class="mb-3">
+                    <label for="descricao" class="form-label">assunto</label>
+                    <textarea id="descricao" class="form-control" rows="3"
+                        placeholder="Insira os detalhes do evento..."></textarea>
+                </div>
 
-        </section>
+</section>
 
 
         <!-- =========================================
