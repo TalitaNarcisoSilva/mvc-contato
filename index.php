@@ -65,10 +65,17 @@
                         Funcionários
                     </a>
 
+                    <a href="index.php?page=contatos"
+                        class="nav-link <?= $page === 'contatos' ? 'text-white fw-bold' : 'text-white-50' ?>">
+                        Contatos
+                    </a>
+
                     <a href="index.php?page=landing"
                         class="nav-link <?= $page === 'landing' ? 'text-white fw-bold' : 'text-white-50' ?>">
                         Sair
                     </a>
+
+                    
 
                 </nav>
 
