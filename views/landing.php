@@ -18,6 +18,9 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+         <!-- CSS da página -->
+    <link rel="stylesheet" href="assets/css/landing.css">
+
 </head>
 
 <body class="bg-light">
@@ -29,7 +32,7 @@
 
     <header>
 
-        <nav class="navbar navbar-dark bg-dark py-3">
+        <nav class="navbar navbar-dark bg-purple py-3"> <!-- classe pra colocar a cor roxa no CSS -->
 
             <div class="container">
 
@@ -70,7 +73,7 @@
 
         <!-- APRESENTAÇÃO -->
 
-        <section class="py-5">
+        <section class="bg-gray py-5">
 
             <div class="container">
 
@@ -81,7 +84,7 @@
 
                     <div class="col-lg-6">
 
-                        <span class="badge bg-primary mb-3">
+                        <span class="badge bg-purple mb-3">
                             Sistema de Gestão
                         </span>
 
@@ -112,7 +115,7 @@
                         <div class="mt-4">
 
                             <a href="index.php?page=login"
-                                class="btn btn-primary btn-lg">
+                                class="btn btn-purple btn-lg text-white"> 
 
                                 <i class="bi bi-box-arrow-in-right me-2"></i>
 
@@ -135,7 +138,7 @@
 
                                 <div class="text-center mb-4">
 
-                                    <i class="bi bi-speedometer2 display-1 text-primary"></i>
+                                    <i class="bi bi-speedometer2 display-1 text-purple"></i>
 
                                     <h3 class="mt-3">
                                         Sistema de Cadastros
@@ -157,7 +160,7 @@
 
                                     <div class="col-4">
 
-                                        <i class="bi bi-box-seam fs-2 text-primary"></i>
+                                        <i class="bi bi-box-seam fs-2 text-purple"></i>
 
                                         <p class="mt-2 mb-0">
                                             Produtos
@@ -170,7 +173,7 @@
 
                                     <div class="col-4">
 
-                                        <i class="bi bi-people fs-2 text-primary"></i>
+                                        <i class="bi bi-people fs-2 text-purple"></i>
 
                                         <p class="mt-2 mb-0">
                                             Clientes
@@ -183,7 +186,7 @@
 
                                     <div class="col-4">
 
-                                        <i class="bi bi-person-badge fs-2 text-primary"></i>
+                                        <i class="bi bi-person-badge fs-2 text-purple"></i>
 
                                         <p class="mt-2 mb-0">
                                             Funcionários
@@ -241,7 +244,7 @@
 
                             <div class="card-body text-center p-4">
 
-                                <i class="bi bi-box-seam fs-1 text-primary"></i>
+                                <i class="bi bi-box-seam fs-1 text-purple"></i>
 
                                 <h5 class="mt-3">
                                     Produtos
@@ -269,7 +272,7 @@
 
                             <div class="card-body text-center p-4">
 
-                                <i class="bi bi-people fs-1 text-primary"></i>
+                                <i class="bi bi-people fs-1 text-purple"></i>
 
                                 <h5 class="mt-3">
                                     Clientes
@@ -297,7 +300,7 @@
 
                             <div class="card-body text-center p-4">
 
-                                <i class="bi bi-person-badge fs-1 text-primary"></i>
+                                <i class="bi bi-person-badge fs-1 text-purple"></i>
 
                                 <h5 class="mt-3">
                                     Funcionários
@@ -331,7 +334,7 @@
 
             <div class="container">
 
-                <div class="card bg-primary text-white border-0">
+                <div class="card bg-purple text-white border-0">
 
                     <div class="card-body text-center p-5">
 
@@ -371,7 +374,7 @@
          RODAPÉ DA LANDING PAGE
     ========================================== -->
 
-    <footer class="bg-dark text-white py-4">
+    <footer class="bg-purple text-white py-4">
 
         <div class="container">
 

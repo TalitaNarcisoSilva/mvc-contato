@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Login | Sistema de Cadastros Contatos</title>
+    <title>Login | Sistema de Cadastros </title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
@@ -42,7 +42,7 @@
 
                             <div class="mb-3">
 
-                                <i class="bi bi-person-circle display-3 text-primary"></i>
+                                <i class="bi bi-person-circle display-3 text-purple"></i>
 
                             </div>
 
@@ -120,7 +120,7 @@
 
                             </button> -->
 
-                            <a href="index.php?page=home" class="btn btn-primary w-100">
+                            <a href="index.php?page=home" class="btn btn-purple text-white w-100">
 
                                 <i class="bi bi-box-arrow-in-right me-1"></i>
                                 Entrar
@@ -139,7 +139,7 @@
                         <!-- Voltar -->
                         <div class="text-center mt-4">
 
-                            <a href="index.php" class="text-decoration-none">
+                            <a href="index.php" class="text-decoration-none text-purple">
 
                                 <i class="bi bi-arrow-left me-1"></i>
 
